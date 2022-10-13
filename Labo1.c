@@ -1,6 +1,7 @@
 #include <mysql.h>
 #include <stdio.h>
 #include <stdlib.h>
+
 void finish_with_error(MYSQL *con)
 {
   fprintf(stderr, "%s\n", mysql_error(con));
